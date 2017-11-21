@@ -1,0 +1,40 @@
+footer{
+    height: 152px;
+    color: white;
+    background: url("../../assets/img/bg/titlebg.png") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        height: 100%;
+        display: flex;
+        width: 30%;
+        justify-content:center;
+        h2{
+            font-size: 36px;
+            color: white;
+            width: 100%;
+            background-size: 70px;
+            height: 100%;
+            line-height: 152px;
+            text-align: right;
+            padding-right: 50px;
+        }
+        &:first-child{
+            h2{
+                background: url("../../assets/img/tip/menu-comics.png") no-repeat left;
+            }
+        }
+        &:nth-child(2){
+            h2{
+                background: url("../../assets/img/tip/menu-gamev.png") no-repeat left;
+            }
+        }
+        &:last-child{
+            h2{
+                background: url("../../assets/img/tip/menu-master.png") no-repeat left;
+            }
+        }
+    }
+}

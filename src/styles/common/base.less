@@ -1,0 +1,32 @@
+@import "./head.less";
+@import "./foot.less";
+*{
+    box-sizing: border-box;
+    padding: 0;margin: 0;
+}
+html,body,section,#app{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+section{
+    background: url("../../assets/img/bg/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    main{
+        flex:1;
+        .mainbox{
+            .title{
+                height: 100px;
+                h3{
+                    color: white;
+                    text-align: center;
+                    font-size: 70px;
+                }
+            }
+        }
+    }
+}
+
